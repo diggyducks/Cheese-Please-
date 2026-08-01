@@ -1,9 +1,9 @@
 const cacheName = "Diggy Ducks-Cheese, Please!-0.1";
 const contentToCache = [
     "Build/CheesePleaseWeb.loader.js",
-    "Build/CheesePleaseWeb.framework.js.br",
-    "Build/CheesePleaseWeb.data.br",
-    "Build/CheesePleaseWeb.wasm.br",
+    "Build/CheesePleaseWeb.framework.js.unityweb",
+    "Build/CheesePleaseWeb.data.unityweb",
+    "Build/CheesePleaseWeb.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
