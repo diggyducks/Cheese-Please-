@@ -57,12 +57,13 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CheesePleaseGithub.loader.js";
+	  var v = "?v=0.2.0";
+      var loaderUrl = buildUrl + "/CheesePleaseGithub.loader.js" + v;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/CheesePleaseGithub.data",
-        frameworkUrl: buildUrl + "/CheesePleaseGithub.framework.js",
-        codeUrl: buildUrl + "/CheesePleaseGithub.wasm",
+        dataUrl: buildUrl + "/CheesePleaseGithub.data" + v,
+        frameworkUrl: buildUrl + "/CheesePleaseGithub.framework.js" + v,
+        codeUrl: buildUrl + "/CheesePleaseGithub.wasm" + v,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Diggy Ducks",
         productName: "Cheese, Please!",
