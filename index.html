@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
-    <!-- ADD THESE 3 LINES TO PREVENT HTML CACHING -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    
     <title>Unity Web Player | Cheese, Please!</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -63,21 +57,16 @@
       }
 
       var buildUrl = "Build";
-      
-      // ADD THIS LINE (Change this number every time you push an update!)
-      var v = "?v=1.1"; 
-      
-      // APPEND THE 'v' VARIABLE TO YOUR FILES
-      var loaderUrl = buildUrl + "/CheesePleaseGithub.loader.js" + v;
+      var loaderUrl = buildUrl + "/CheesePleaseGithub.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/CheesePleaseGithub.data" + v,
-        frameworkUrl: buildUrl + "/CheesePleaseGithub.framework.js" + v,
-        codeUrl: buildUrl + "/CheesePleaseGithub.wasm" + v,
+        dataUrl: buildUrl + "/CheesePleaseGithub.data",
+        frameworkUrl: buildUrl + "/CheesePleaseGithub.framework.js",
+        codeUrl: buildUrl + "/CheesePleaseGithub.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Diggy Ducks",
         productName: "Cheese, Please!",
-        productVersion: "0.1",
+        productVersion: "0.2.0",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);

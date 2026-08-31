@@ -1,4 +1,4 @@
-const cacheName = "Diggy Ducks-Cheese, Please!-0.1";
+const cacheName = "Diggy Ducks-Cheese, Please!-0.2.0";
 const contentToCache = [
     "Build/CheesePleaseGithub.loader.js",
     "Build/CheesePleaseGithub.framework.js",
